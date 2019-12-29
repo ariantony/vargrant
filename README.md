@@ -12,6 +12,10 @@ https://app.vagrantup.com/boxes/search
 > vagrant up
 6. ssh
 > vagrant ssh
+7. destroy
+> vagrant destroy
+8. vagrant stop
+> vagrant halt
 
 
 
