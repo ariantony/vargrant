@@ -6,8 +6,7 @@ https://app.vagrantup.com/boxes/search
 3. CMD
 > vagrant init
 4. Edit Vagrantfile > Tambahkan baris ini, untuk mengaktifkan bridge
-> config.vm.network "public_network",
-> use_dhcp_assigned_default_route: true
+> https://github.com/ariantony/vargrant/blob/master/Vagrantfile
 5. start
 > vagrant up
 6. ssh
