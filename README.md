@@ -17,6 +17,11 @@ https://app.vagrantup.com/boxes/search
 > vagrant halt
 
 
-
+## copy ssh key
+1. ssh-keygen
+2. copy ssh key
+- ssh-copy-id username@remote_host > jika bisa akses ssh
+- cat ~/.ssh/id_rsa.pub
+3. echo public_key_string >> ~/.ssh/authorized_keys ke host yang akan diremote.
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1804
