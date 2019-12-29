@@ -25,3 +25,8 @@ https://app.vagrantup.com/boxes/search
 3. echo public_key_string >> ~/.ssh/authorized_keys ke host yang akan diremote.
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1804
+
+## Install Kubernetes
+1. Install Docker dimasing2 host, lihat versi yang disupport rancher
+> https://docs.docker.com/install/linux/docker-ce/ubuntu/
+2. 
