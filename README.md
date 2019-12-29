@@ -7,3 +7,7 @@ https://app.vagrantup.com/boxes/search
 > vagrant init
 4. Edit Vagrantfile > Tambahkan baris ini, untuk mengaktifkan bridge
 > config.vm.network "public_network", type: "dhcp", bridge: "eth0"
+5. start
+> vagrant up
+6. ssh
+> vagrant ssh
